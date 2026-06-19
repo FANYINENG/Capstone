@@ -15,8 +15,9 @@ The data's raw format is npy (standard binary for Numpy), for the initial data i
 The first step in the notebook loads the data and stores them as a single pd dataframe, where the features are given x1, x2, x3...xN column names and "target" as the name for the output.
 
 A sample datapoint looks like this:          
-x1        x2    target
-0  0.665800  0.123969  0.538996
+
+x1         x2        target
+0.665800  0.123969  0.538996
 
 The initial data composition is as follows:
 * Function 1: 2D , 10 datapoints
