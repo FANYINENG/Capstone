@@ -16,8 +16,9 @@ The first step in the notebook loads the data and stores them as a single pd dat
 
 A sample datapoint looks like this:          
 
-x1         x2        target
-0.665800  0.123969  0.538996
+x1   | x2  | target
+
+0.665800 | 0.123969 | 0.538996
 
 The initial data composition is as follows:
 * Function 1: 2D , 10 datapoints
